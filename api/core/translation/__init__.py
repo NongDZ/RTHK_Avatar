@@ -1,0 +1,1 @@
+from .LLMTranslator import translate_text
