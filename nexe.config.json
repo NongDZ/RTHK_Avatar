@@ -1,0 +1,13 @@
+{
+  "input": ".next/standalone/server.js",
+  "output": "build/rthk-avatar.exe",
+  "target": "windows-x64-18.4.0",
+  "build": false,
+  "resources": [
+    ".next/standalone/.next/**/*",
+    ".next/standalone/public/**/*",
+    "packages/3d_avatar/dist/**/*",
+    "public/**/*"
+  ],
+  "temp": "build/.nexe-tmp"
+}
